@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 5px;
+}
+
+html{
+  border-style: solid;
+  border-top: 20px solid white;  
+  border-bottom: 20px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  border-radius: 5px;
+  background-clip: border-box;
+}
+
+body{
+    font-family: 'Langar', cursive;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(128,128,128,0.5);
+}
+
+#title{
+  position: relative;
+  text-align: center;
+  padding: 25px;
+}
+
+.image{
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+
+h1{
+  padding-bottom: 25px;
+}
+
+h4{
+  font-style: italic;
+}
+
+figcaption{
+  position: relative;
+  line-height: 50px;
+}
+
+.description{
+  position: relative;
+}
+
+h2{
+  text-align: center;
+  padding-top: 50px;
+}
+
+#list-decorator{
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 25px;
+  line-height: 25px;
+}
+
+blockquote{
+  position: relative;
+  text-align: left;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#footer{
+  padding-top: 50px;
+  position: relative;
+  text-align: start;
+  padding-right: 150px;
+  padding-left: 150px;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: solid violet;
+}
